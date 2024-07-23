@@ -1,0 +1,86 @@
+body {
+  background-image: url("./peaky.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: purple;
+  font-size: larger;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  border: 1px solid burlywood;
+}
+
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: blue;
+}
+.box3 {
+  background-color: green;
+}
+#myDearButton {
+  background-color: orangered;
+}
+/*attribute selector*/
+a[target="_blank"] {
+  font-size: 30px;
+  color: chartreuse;
+}
+
+/*Desendent Selector*/
+.container .content {
+  background-color: rgba(0, 128, 128, 0.6);
+  color: #ff9990;
+  border-color: #ff9990;
+}
+
+/*Pseudo Selector   CLASSES*/
+/* .container .content:hover {
+  background-color: red;
+} */
+
+/* .content:first-child {
+  background-color: blue;
+} */
+
+/*Pseudo Elements*/
+
+.example::after {
+  content: "%";
+  color: green;
+  /* background-color: rgba(255, 255, 255); */
+  font-size: 20px;
+}
+
+/* .content p{
+
+} */
+
+/*Text Styling*/
+
+h1 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.boox {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  background-color: yellow;
+  border: 10px solid red;
+  padding: 25px;
+}
